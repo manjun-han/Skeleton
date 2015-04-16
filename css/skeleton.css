@@ -36,7 +36,13 @@
   padding: 0 15px;
   box-sizing: border-box; }
 .row{
+  width:auto;
   margin:0 -15px;
+}
+.row>.container{
+  width:auto;
+  margin-left:-15px;
+  margin-right:-15px;
 }
 .column,
 .columns {
